@@ -12,3 +12,13 @@
  *
  * 5. Выведите в консоль значение второй переменной
  */
+
+let myFavoriteClub = 'Arsenal';
+
+console.log(myFavoriteClub instanceof String);
+
+console.log(typeof myFavoriteClub);
+
+let upClub = myFavoriteClub.toUpperCase();
+
+console.log(upClub);
