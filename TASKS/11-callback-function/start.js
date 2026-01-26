@@ -4,3 +4,8 @@
  *
  * 2. Используйте стрелочную функцию
  */
+
+let myName = () => {
+  return console.log(`Привет, мир!`);
+};
+setTimeout(myName, 5000);

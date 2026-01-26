@@ -8,3 +8,11 @@
  * 2. Выведите в консоль строку
  * "My name is <name> <surname> and my favorite number is <favoriteNumber>"
  */
+
+let info = {
+    name: 'Janatas'
+    surname: 'Nurmanov'
+    favoriteNumber: 202
+}
+
+console.log(`My name is ${info.name} ${info.surname} and my favorite number is ${info.favoriteNumber}`)
