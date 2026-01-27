@@ -5,3 +5,9 @@
  * 2. Используя один из методов массивов, переберите все элементы
  * и выведите каждый элемент в консоль
  */
+
+let array = [1, true, 'Janatas', 'Nurmanov'];
+
+array.forEach((index, item) => {
+  console.log(item, index);
+});

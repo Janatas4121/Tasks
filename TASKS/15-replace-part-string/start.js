@@ -6,3 +6,9 @@
  *
  * 3. Выведите значение второй переменной в консоль
  */
+
+let day = 'Good Morning';
+
+day.replace('Morning', 'Evening');
+
+console.log(day);

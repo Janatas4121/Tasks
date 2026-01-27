@@ -6,3 +6,15 @@
  *
  * 3. Выведите в консоль длину результирующего массива
  */
+
+let array = [10, 15, 'car'];
+
+array.push(202);
+
+console.log(array);
+
+console.log(array.length);
+
+array.push(34, 'Janatas');
+
+console.log(array);

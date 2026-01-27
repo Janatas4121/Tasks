@@ -8,3 +8,11 @@
  *
  * 4. Выведите в консоль измененный массив
  */
+
+let array = [true, 202, 'Janatas'];
+
+console.log(array);
+
+array[1] = 101;
+
+console.log(array);

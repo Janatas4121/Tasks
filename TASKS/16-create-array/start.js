@@ -6,3 +6,11 @@
  *
  * 3. Выведите в консоль длину массива
  */
+
+let array = ['Janatas', true, 202];
+
+console.log(array[0]);
+
+let arrayLenth = array.length;
+
+console.log(arrayLenth);
