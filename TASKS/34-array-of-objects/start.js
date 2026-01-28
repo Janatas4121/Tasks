@@ -11,3 +11,16 @@
  *
  * 4. Выведите результирующий массив в консоль
  */
+
+const infoCar = [
+  { carBrand: 'Cobalt' },
+  { price: 15000 },
+  { isAvailableForSale: true },
+];
+console.log(infoCar);
+
+infoCar.push({ color: 'white' });
+
+console.log(infoCar);
+
+console.log(infoCar.length);
